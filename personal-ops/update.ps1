@@ -153,7 +153,7 @@ function Invoke-Backup {
     @("created=$Stamp", "head=$head", "branch=$(G branch --show-current)", "ignored_files_copied=$n") |
         Set-Content (Join-Path $dest 'MANIFEST.txt')
     Say "Backup: $dest  ($n personal files + repo.bundle)"
-    Say 'This folder holds private data (CVs, tracker, .env). Keep it OUTSIDE any G repo.'
+    Say 'This folder holds private data (CVs, tracker, .env). Keep it OUTSIDE any git repo.'
     return $dest
 }
 
