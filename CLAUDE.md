@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Sukesh Periyasamy
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Sukesh Periyasamy, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,73 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Sukesh Periyasamy
+- **Location:** Tamil Nadu, India (open to relocation across India; preferred: Bengaluru, Chennai, Coimbatore)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | English | Professional (to be confirmed) |
+  | Tamil | Native (to be confirmed) |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Junior Research Fellow, IIT Jodhpur; M.Tech completed 2026; available immediately
+- **LinkedIn headline:** Not provided
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **M.Tech in Medical Technology** (2024-2026) - IIT Jodhpur, joint program with AIIMS Jodhpur (CGPA 8.53/10)
+  - Project: fragment-based DFT Raman simulation of MPT64 (TB antigen)
+  - Topics: biosensing, Raman/SERS, biosignal processing
+- **MCA** (2022-2024) - Erode Sengunthar Engineering College (CGPA 7.20/10)
+- **B.Sc. Information Technology** (2019-2022) - Kongu Arts and Science College (CGPA 6.90/10)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Junior Research Fellow** (May 2026 - Present) - **IIT Jodhpur with AIIMS Jodhpur, TCS-funded SERS sepsis biosensor project** (Jodhpur)
+  - Fabricate SERS chips by metal-assisted chemical etching on silicon; trained in cleanroom Ag/Au coating
+  - Process 120-150 Raman measurements per experiment in Python (ALS baseline, Savitzky-Golay smoothing, normalization)
+  - Validate peak assignments against simulated references; maintain SOPs and dated records
+- **Product Management Intern** (Oct 2024 - Mar 2025) - JCKIF, Jodhpur
+- **Software Testing Intern** (Oct - Nov 2022) - Atos Syntel
+- **Workshop Instructor** (2026) - KEC College, 4-day IoT/embedded training for 35+ students
+
+Full detail: `.claude/skills/job-application-assistant/01-candidate-profile.md`. Personal contact details beyond email are deliberately not stored in this repo.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python (NumPy, Pandas, Matplotlib) for spectral and biosignal processing; SERS/Raman; sensor fabrication and validation
+- **Secondary:** Arduino, Raspberry Pi, ESP32 prototyping; Node.js/Express; Java; JavaScript
+- **Domain:** Biosensors and diagnostics; EMG biosignals; medical technology
+- **Software:** Unity 3D, Gaussian 16, GitHub, Postman, Linux, AWS (S3, EC2), Excel
+- **Not documented (do not claim):** production firmware (RTOS, C/C++), ISO 13485, IEC 62304, ISO 14971, ML frameworks
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+None listed.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None listed.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Finalist - Smart India Hackathon (2024)
+- 1st Prize, Website Creation; 2nd Prize, Code Fighter - college events
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+No formal assessment. Resume-based notes only (documentation discipline, reproducibility focus, cross-team coordination) in `02-behavioral-profile.md`.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+Not yet stated. Stated direction: industry R&D and engineering in medical devices and healthtech, not a research-only or PhD-track career.
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Medical devices, diagnostics, healthcare technology, embedded systems, medical software
+- Target roles: Medical Device R&D Engineer, Medical Device Software Engineer, Embedded/Firmware Engineer, Medical Device Systems Engineer, Healthcare AI/ML Engineer
+- Compensation: minimum about 6-8 LPA, preferring 8 LPA or more
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Research-only or long-term PhD-track roles
+- Postings stating pay below about 6 LPA (flag, do not auto-reject)
+- Internship roles (full-time only)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python spectral/biosignal processing (NumPy, Pandas, Matplotlib); SERS/Raman sensing; sensor fabrication, calibration and validation; SOP and experimental documentation
+**Moderate match areas:** Arduino/ESP32/Raspberry Pi prototyping and serial communication; Node.js/Express backend and web development; Java; EMG acquisition; AWS basics
+**Weak match areas:** Production firmware (RTOS, C/C++), IEC 62304 / ISO 13485 / ISO 14971, regulatory submissions, machine-learning frameworks, PCB design, years of industry experience
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Biosensor R&D (SERS chip fabrication, Raman data processing, validation) in an academic-clinical collaboration
+**Moderate:** Biosignal (EMG) prototyping; software testing (internship); web and backend project work
+**Entry-level:** Everything in industry: medical-device product development, quality systems, embedded firmware, healthcare AI/ML, regulated software. The candidate is a fresher for full-time industry roles.
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,9 +91,9 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Bengaluru, Chennai, Coimbatore (ideal), or remote with occasional office: PASS
+- Other Indian cities (candidate is open to relocation): PASS, note the city and whether relocation support is offered
+- Outside India: FLAG (discuss with user)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +107,20 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Industry R&D and engineering role, not a long-term PhD or research-only career
+- Target roles: Medical Device R&D Engineer, Medical Device Software Engineer, Embedded/Firmware Engineer, Medical Device Systems Engineer, Healthcare AI/ML Engineer
+- Target sectors: medical devices, healthcare technology, diagnostics, embedded systems, medical software
+- Internship roles are out of scope: full-time roles only
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: Not yet stated. Resume evidence suggests building and validating working devices and signal pipelines. *[Confirm with Sukesh]*
+- Tasks that drain: Not yet stated. *[Confirm with Sukesh]*
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Minimum target compensation about 6-8 LPA (INR); preference for 8 LPA or more. Flag postings that state pay below 6 LPA.
+- **Flexibility**: Open to relocation; preferred cities Bengaluru, Chennai, Coimbatore, then other suitable Indian cities.
+- **Professional development**: Wants to grow into medical-device quality systems, embedded and software engineering in an industry setting.
 
 ### 6. Salary Benchmark (Optional)
 

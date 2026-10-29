@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Sukesh Periyasamy - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,14 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Sukesh}{Periyasamy}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Tamil Nadu, India}{}{}
+% Phone is intentionally not stored in this repo. Add a line like \phone[mobile]{+91 XXXXXXXXXX}
+% in the generated (gitignored) cv/main_<company>_<role>.tex before sending; ATS parsers expect it.
+\email{sukeshperiyasamy@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/sukeshperiyasamy}{LinkedIn}, \href{https://sukeshiitj.me}{Website}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +138,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Medical Device R&D / Systems Engineer roles:**
+> M.Tech in Medical Technology (IIT Jodhpur, joint program with AIIMS Jodhpur) and Junior Research Fellow on a TCS-funded SERS biosensor project for early sepsis detection. Hands-on across the device pipeline: sensor chip fabrication, calibration, Python-based signal processing and validation against reference data, with SOP-based documentation and coordination across IIT Jodhpur, AIIMS Jodhpur and TCS. Seeking an industry R&D role in medical devices.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Embedded / Medical Device Software / Healthcare AI roles:**
+> M.Tech in Medical Technology (IIT Jodhpur) with Python signal-processing experience on Raman spectra (120-150 measurements per experiment) and a real-time EMG acquisition and control prototype built on Arduino and Unity (amplification, filtering, envelope detection, auto-calibration). Also experienced with Raspberry Pi/ESP32 prototyping, Node.js backends and software testing. Seeking an engineering role building device software and data pipelines in healthcare.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

@@ -16,28 +16,49 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+## STAR Candidates (Complete Manually)
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+<!-- Stubs only. Situation/Task/Action/Result must come from Sukesh's own recollection; do not draft them for him. -->
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### SERS spectral processing pipeline
+**Source:** Resume - Junior Research Fellow, IIT Jodhpur
+**What happened:** Built a Python pipeline (ALS baseline, Savitzky-Golay smoothing, normalization) for 120-150 Raman measurements per experiment and validated peaks against simulated references.
+**Why it matters:** Data quality, reproducibility, technical problem solving, validation under uncertainty.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### NeuroSync EMG control system
+**Source:** Resume - project
+**What happened:** Built a real-time EMG acquisition and control pipeline from Arduino to Unity with auto-calibration.
+**Why it matters:** Embedded and real-time systems, end-to-end ownership, debugging hardware and software.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### 4-day IoT/embedded workshop
+**Source:** Resume - Workshop Instructor, KEC College
+**What happened:** Designed and delivered a 4-day curriculum to 35+ students.
+**Why it matters:** Communication, planning, explaining technical topics.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Smart India Hackathon 2024 (finalist)
+**Source:** Resume - Achievements
+**What happened:** Reached the finalist stage. Details not in the resume.
+**Why it matters:** Teamwork under time pressure, building a prototype quickly.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 ## Common Tough Questions
 

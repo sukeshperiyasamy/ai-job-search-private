@@ -13,10 +13,10 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **naukri.com** - India's largest general job board (no CLI installed yet; scaffold one with `/add-portal`, WebSearch `site:` queries until then)
+- **linkedin.com/jobs** - LinkedIn job listings (filter: India / Bengaluru, Chennai, Coimbatore); also covered by `linkedin-search` CLI
+- **in.indeed.com** - Indeed India (WebSearch fallback)
+- **freehire** - covered by the `freehire-search` CLI
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -27,54 +27,60 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Medical Device R&D and Systems Engineering
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match the most desired direction: industry R&D in medical devices. Fresher / entry-level, full-time only (exclude "intern").
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:naukri.com "medical device" "R&D engineer" Bengaluru
+site:naukri.com "medical device" "systems engineer" Chennai
+site:naukri.com "biomedical engineer" "R&D" Coimbatore
+site:naukri.com "product development engineer" "medical devices" India
+site:linkedin.com/jobs "Medical Device R&D Engineer" India
+site:linkedin.com/jobs "Medical Device Systems Engineer" India
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Embedded / Firmware and Biosignal Engineering
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Matches Arduino/ESP32/Raspberry Pi prototyping and EMG/biosignal work. Entry-level only; the experience is prototype-level.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:naukri.com "embedded engineer" "medical" Bengaluru
+site:naukri.com "firmware engineer" "medical device" Chennai OR Coimbatore
+site:naukri.com "biosignal" OR "biomedical signal processing" engineer India
+site:linkedin.com/jobs "Embedded Firmware Engineer" medical India
+```
+
+### Priority 3: Medical Device Software and Healthcare AI/ML
+
+Adjacent roles building on Python signal processing and software skills.
+
+```
+site:naukri.com "medical device software engineer" India
+site:naukri.com "healthcare" "machine learning engineer" fresher Bengaluru
+site:naukri.com "digital health" OR "healthtech" "software engineer" Chennai
+site:linkedin.com/jobs "Healthcare AI Engineer" India
+site:linkedin.com/jobs "medical software engineer" Bengaluru
+```
+
+### Priority 4: Broader Diagnostics, Biosensor and Verification Roles
+
+Wider net: diagnostics, biosensors, V&V and validation roles that use the lab and documentation background.
+
+```
+site:naukri.com "diagnostics" "R&D" scientist OR engineer India
+site:naukri.com "biosensor" OR "Raman" engineer India
+site:naukri.com "verification and validation" "medical device" Bengaluru
+site:linkedin.com/jobs "biomedical engineer" Bengaluru OR Chennai OR Coimbatore
 ```
 
 ## Location Filter
 
 When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+- Ideal: Bengaluru, Chennai, Coimbatore (and surrounding areas)
+- Acceptable: other Indian cities with medical-device or healthtech hubs, such as Hyderabad, Pune, Mumbai, Delhi NCR, Ahmedabad
+- Borderline: remote or hybrid roles based elsewhere in India (note the on-site requirement)
+- Flag: roles outside India
 
 ## Language Filter
 
